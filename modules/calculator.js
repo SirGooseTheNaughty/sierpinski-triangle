@@ -4,7 +4,6 @@ function useCalculator(canvas) {
 
     (function placePins() {
         const trHeight = canvas.height - 100;
-        console.log(trHeight)
         pins[0].x = canvas.width / 2;
         pins[0].y = 50;
         pins[1].y = canvas.height - 50;

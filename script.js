@@ -1,5 +1,5 @@
-import useCalculator from "./modules/calculator";
-import useDrawer from "./modules/drawer";
+import useCalculator from "./modules/calculator.js";
+import useDrawer from "./modules/drawer.js";
 
 const { canvas, drawDot, drawPin, clearCanvas } = useDrawer();
 const { pins, calcNextPoint } = useCalculator(canvas);
